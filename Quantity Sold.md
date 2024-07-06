@@ -1,3 +1,2 @@
 
-
-Total Quantity Sold = SUM('YourTableName'[Quantity])
+## Total Quantity Sold = SUM('YourTableName'[Quantity])
