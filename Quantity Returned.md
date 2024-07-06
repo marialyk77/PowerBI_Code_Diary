@@ -1,7 +1,5 @@
 # Quantity  Returned= SUM('Returns Data'[ReturnQuantity])
-
-// To see how many Items were returned: We will do sum! 
-
+// Sum function: to check the num of items that has been returned. 
 // Someone made 1 return transaction ,which included 2 items.
 // The Quantity Returned will be : 2
 
