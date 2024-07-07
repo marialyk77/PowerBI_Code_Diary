@@ -5,11 +5,6 @@ The concept of Total Returns refers to the volume of Returns/ the transactions f
 
 -------- A customer decides to return 2 items. That makes Total Returns = 1 
 
-COUNT:
-
-Use when: You need to count numeric values in a column.
-
-What it counts: All non-blank numeric values.
 
 COUNTA:
 
@@ -17,11 +12,17 @@ Use when: You need to count all non-blank values in a column, regardless of type
 
 What it counts: All non-blank values (numeric, text, logical, etc.). Suitable when you want to count how many return records exist based on the presence of a ProductKey. 
 
+ // COUNT:
+
+Use when: You need to count numeric values in a column.
+
+What it counts: All non-blank numeric values.
+
 In Practice:
 
-COUNT('Returns Data'[ReturnQuantity]) : Appropriate when you are interested in counting instances where a return quantity is recorded.
-
 COUNTA('Returns Data'[ProductKey]) counts how many return records are associated with a product, regardless of the return quantity.
+
+COUNT('Returns Data'[ReturnQuantity]) : Appropriate when you are interested in counting instances where a return quantity is recorded.
 
 If we se the COUNTROWS, it will count the BLANKS! 
 ## Total Returns = COUNTROWS('Returns Data')
