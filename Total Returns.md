@@ -1,5 +1,8 @@
 
 ## Total Returns = COUNTA('Returns Data'[ProductKey])
+![carbon (1)](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/19b31ed2-c761-4aa8-b3bb-85f2f9f4b537)
+
+
 
 The concept of Total Returns refers to the number of return transactions rather than the quantity of products returned. It measures how many times a customer initiates a return, regardless of the number of items returned in each transaction.
 
