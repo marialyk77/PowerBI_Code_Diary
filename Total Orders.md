@@ -21,7 +21,7 @@ Result = 3 , because there are three distinct orders (Order Numbers 1, 2, and 3)
 * Less common code: Total Orders = COUNTROWS('Sales Data') 
 
 1. It is going to count all rows!
-2.  Generally not appropriate for counting distinct orders if the table contains multiple rows per order (e.g., one row for each line item of the same order). As it is going to sum all the Line items as a different order, while the belong to the same order. 
+2.  Generally not appropriate for counting distinct orders if the table contains multiple rows per order (e.g., one row for each line item of the same order). As it is going to sum all the Line items as a different order, while they belong to the same order. 
 
 
 
