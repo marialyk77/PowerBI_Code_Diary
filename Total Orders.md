@@ -1,28 +1,32 @@
 # Total Orders = DISTINCTCOUNT('YourTableName'[Order Number])
 
-The Total Orders is the Volume of orders.
+![carbon (2)](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/e38e5ec5-c52a-42cc-ae6e-620a3f1e7c7e)
+
+
+* The Total Orders refers to the Volume of orders, not the quantity that customers bought. .
 
 For this measure the emphasis is on [Order Number] column.
 
-With total orders we count the number of orders not the quantity that customers bought. 
 
-Ex: If a Customer made one order and bought 3 items. Total Orders is 1! And Total Quantity is 3!
+Ex:
 
-![image](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/729894ff-9347-47f2-8c3c-61db57fbc2da)
+![image](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/ae587aff-f06b-45bc-8628-4e7b7d05c3d6)
 
+Total Orders = DISTINCTCOUNT('Sales Data'[Order Number])
 
-
-# Less common code: Total Orders = COUNTROWS('Sales Data') 
-
--- is going to count all rows!
--- Generally not appropriate for counting distinct orders if the table contains multiple rows per order (e.g., one row for each line item in an order).
--- The COUNTROWS function would count the line items even though in the same order.
+Result = 3 , because there are three distinct orders (Order Numbers 1, 2, and 3).
 
 
 
-![image](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/bddfeba8-5b88-4ad5-84d2-e99416476842)
+* Less common code: Total Orders = COUNTROWS('Sales Data') 
 
-DISTINCTCOUNT('Sales Data'[Order Number]): This will return 3, because there are three distinct orders (Order Numbers 1, 2, and 3).
+1. It is going to count all rows!
+2.  Generally not appropriate for counting distinct orders if the table contains multiple rows per order (e.g., one row for each line item in an order). As it is going to sum all the Line items as a different order, while the belong to the same order. 
 
-COUNTROWS('Sales Data'): This will return 5, because there are five rows in total in the 'Sales Data' table, which includes all line items.
+
+
+![image](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/e5ee3718-49e5-4747-bb5a-41c0e9633370)
+
+
+COUNTROWS('Sales Data'): This will return 5, because there are five rows in total in the 'Sales Data' table, which sums all line items.
 
