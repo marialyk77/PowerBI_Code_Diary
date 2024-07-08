@@ -1,4 +1,4 @@
-% of All Orders = DIVIDE([Total Orders], [All Orders])
+## % of All Orders = DIVIDE([Total Orders], [All Orders])
 
 ![% of All Orders](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/04f26371-1a0d-490f-931e-fdbf7e7d1d44)
 
