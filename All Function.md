@@ -19,3 +19,8 @@
 
 ![All Profit](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/55593d95-d451-4151-9963-f27a0bcdf393)
 
+## All Units / Quantity Sold = CALCULATE([Total Units Sold], ALL (Sales[Units Sold]))
+
+![All Units Sold_All Quantity Sold](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/649b3e2e-e733-4ff3-8fb5-40d1f1d79c80)
+
+
