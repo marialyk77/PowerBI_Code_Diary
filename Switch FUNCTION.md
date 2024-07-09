@@ -31,6 +31,42 @@ SWITCH(
     
 )
 
+
+## Month Number 
+Month Number = 
+
+SWITCH(
+
+    'Calendar Lookup'[Month Name], 
+    
+    "January", "1",
+    
+    "February", "2",
+    
+    "March", "3",
+    
+    "April", "4",
+    
+    "May", "5",
+    
+    "June", "6",
+    
+    "July", "7",
+    
+    "August", "8",
+    
+    "September", "9",
+    
+    "October", "10",
+    
+    "November","11",
+    
+    "December", "12",
+    
+    "Other")
+    
+
+
 + Switch  is used to evaluate multiple conditions sequentially and return a value when the condition is met.
 + But, the Switch  evaluates equality (=) rather than comparison operators like <, >, <=, and >= directly.
 + True : The True acts as a placeholder and allows the use of comparison operators. 
