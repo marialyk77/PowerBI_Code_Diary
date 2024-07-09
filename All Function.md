@@ -24,3 +24,9 @@
 ![All Units Sold_All Quantity Sold](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/649b3e2e-e733-4ff3-8fb5-40d1f1d79c80)
 
 
+## All Returns = CALCULATE([Total Returns], ALL('Returns Data'))
+
+![All returns](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/44a01e4a-79ca-4359-b276-b41027669b7a)
+
+
+
