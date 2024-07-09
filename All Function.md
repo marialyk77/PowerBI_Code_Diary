@@ -14,3 +14,8 @@
 ![All Orders](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/675abb81-6fed-4b17-b970-7fe934ff35e7)
 
 + The All Orders measure is designed to provide a total count of orders that is not affected by any filters applied to the 'Sales Data' table. This can be particularly useful for comparison purposes or when you want to display a constant total in a card visual, regardless of the current context or filters.
+
+## All Profit = CALCULATE([All Revenue] - [All Cost], ALL('Sales'))
+
+![All Profit](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/55593d95-d451-4151-9963-f27a0bcdf393)
+
