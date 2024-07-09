@@ -52,3 +52,5 @@ RETURN [Order Priority] & " : " & DurationCategory
 
 ![Duration Category](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/0814075d-bdac-4ad0-8d4f-08db676f785f)
 
+
+
