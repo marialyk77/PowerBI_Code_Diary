@@ -1,7 +1,13 @@
-# Part of Day Sales - Morning 
+# Part of Day Sales
 
-## TotalMorningSales = CALCULATE([TotalTicketSales], Table Name[Purchase Time column] = "Morning")
+## MorningSales = CALCULATE([TotalTicketSales], Table Name[Purchase Time column] = "Morning")
 
-![Total Morning Sales](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/786bc6d2-1322-4bdf-93a2-dbc3a5d7fc22)
+![Morning Sales](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/cb1433ab-fb63-48be-a859-9104fb97cff8)
+
+## % Difference Morning vs Night = DIVIDE(MorningSales] - [NightSales], [NightSales], 0)
+
+![% Difference Morning vs Night Sales](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/aaa01f27-98de-410b-b07f-d3f982456b7e)
+
+
 
 
