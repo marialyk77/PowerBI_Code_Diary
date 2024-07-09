@@ -10,3 +10,6 @@
 
 
 ## All Orders = CALCULATE([Total Orders], ALL( 'Sales Data'))
+
+![All Orders](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/675abb81-6fed-4b17-b970-7fe934ff35e7)
+
