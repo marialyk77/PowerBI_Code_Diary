@@ -28,5 +28,10 @@
 
 ![All returns](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/44a01e4a-79ca-4359-b276-b41027669b7a)
 
+## All Revenue = CALCULATE(    [Total Revenue],    ALL('Sales'))
+
+![All Revenue](https://github.com/marialyk77/PowerBI_Code_Diary/assets/139682076/8aaa7f2e-4a18-43a7-8777-233a509ea9e1)
+
+
 
 
