@@ -33,7 +33,7 @@ Utilizes the List.Median function to compute the median value for the listed col
 
 **Step 2: Replace 0 Values with Median Across Multiple Columns**
 
-= Table.TransformColumns(
+    = Table.TransformColumns(
 
     #"Inserted Median",
     
