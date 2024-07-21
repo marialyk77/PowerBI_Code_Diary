@@ -6,7 +6,7 @@ This approach applies the transformation to all specified columns simultaneously
 
 **Step 1: Calculate Median for Each Row**
 
-= Table.AddColumn(
+    = Table.AddColumn(
 
     #"Replaced Value, nulls, 0", 
     
