@@ -10,4 +10,7 @@
 
 
 
+## Sales Last Year
+
+![Sales LY](https://github.com/user-attachments/assets/3ffbc992-fb24-4218-8a1f-891760ab7c7e)
 
