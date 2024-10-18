@@ -1,6 +1,12 @@
 ## Date Table 
 
-DateTable =
+**A. With DAX:**
+
+```ruby
+Dates = CALENDAR(date(year(min(TABLE NAME[Date])),1,1), date(year(max(TABLE NAME[Date])),12,31))
+```
+
+B. DateTable =
 
 ADDCOLUMNS(
 
@@ -28,7 +34,7 @@ ADDCOLUMNS(
 
 
 
-Creating DATA TABLE with M code :
+**C. Creating DATA TABLE with M code:**
 
 
 ```ruby
