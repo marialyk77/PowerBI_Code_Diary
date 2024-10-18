@@ -6,7 +6,9 @@
 Dates = CALENDAR(date(year(min(TABLE NAME[Date])),1,1), date(year(max(TABLE NAME[Date])),12,31))
 ```
 
-B. DateTable =
+**B. DAX Calculated Column**: 
+
+DateTable =
 
 ADDCOLUMNS(
 
